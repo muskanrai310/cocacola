@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 3%);
+    background-image: url("https://cdn.wallpapersafari.com/61/92/mQxndy.png");
+    background-size:cover;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#main img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 1100px;
+    
+    z-index: 10;
+}
+
+
+#main #box1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Gilroy;
+    margin: 150px;
+    padding-left: 35px;
+    line-height: 80px;
+}
+#main #box1 h1 p{
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 100;
+    padding-left: 5px;
+    opacity: .7;
+}
+
+
+#box1 #sbox1{
+    display: flex;
+    width: 200px;
+    height: 130px;
+    background-color:#20232C;
+    position: absolute;
+    bottom: 150px;
+    left: 0px;
+}
+
+#box1 #text1 {
+    position: absolute;
+    color: white;
+    bottom: 170px;
+    left: 100px;
+}
+#text1 p{
+    opacity: .6;
+}
+#box1 #para1{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box1 #a1{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    width: 250px;
+    height: 14px;
+    border-radius: 40%;
+    background-color:#20232C;
+}
+
+#box1 pre{
+    position: absolute;
+    bottom: 64px;
+    left: 45px;
+    color: white;
+    font-size: 15px;
+    opacity: .6;
+}
+
+
+#main h4{
+    color: rgb(230, 228, 228);
+    opacity: .6;
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: gigi;
+}
+
+#box2 #sbox2{
+    display: flex;
+    width: 350px;
+    height: 120px;
+    background-color: #20232C;
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+#box2 #text2 {
+    position: absolute;
+    color: white;
+    bottom: 120px;
+    right: 15px;
+}
+#text2 p{
+    opacity: .6;
+}
+#box2 #para2{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    
+    color: rgb(202, 197, 197);
+    font-size: 40px;
+}
+#icon:hover{
+    cursor: pointer;
+}
+
+#icon #icon1{
+    position:absolute;
+    right: 40px;
+    top: 40px;
+}
+#icon #icon2{
+    position: absolute;
+    right: 150px;
+    bottom: 350px;
+}
+#icon #icon3{
+    position:absolute;
+    right: 40px;
+    bottom: 130px;
+}
+#icon h4{
+    position:absolute;
+    right: 30px;
+    bottom: 10px;
+    font-size: 20px;
+    cursor:none;
+}
+#icon4 i{
+    position: absolute;
+    top: 55px;
+    left: 48%;
+    font-size: 300px;
+    color: white;
+    opacity: .9;
+    box-shadow: (10 10 10px black);
+}
